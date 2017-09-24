@@ -72,6 +72,9 @@ body {
 #main-content section {
   color: #000000;
 }
+#firstElement {
+  border-top: 2px solid black;
+}
 /********** Large devices only **********/
 @media (min-width: 1200px) {
 
