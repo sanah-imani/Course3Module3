@@ -34,11 +34,18 @@ body {
   text-decoration: none;
 }
 #nav-list {
-  margin-top: 10px;
-}
+  background-color: #ABEBC6;
+} 
 #nav-list a {
-  color: #1b5a95;
-  text-align: center;
+  color:  white;
+}
+
+#nav-list li {
+  border-bottom: 1px solid white;
+}
+
+#nav-list li:nth-child(3) {
+  border: none;
 }
 #nav-list a:hover {
   background: #E7E7E7;
@@ -73,20 +80,7 @@ body {
   color: #000000;
 }
 
-#nav-list {
-  background-color: #ABEBC6;
-} 
-#nav-list a {
-  color:  white;
-}
 
-#nav-list li {
-  border-bottom: 1px solid white;
-}
-
-#nav-list li:nth-child(3) {
-  border: none;
-}
 /********** Large devices only **********/
 @media (min-width: 1200px) {
 
