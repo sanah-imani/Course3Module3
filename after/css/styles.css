@@ -72,8 +72,20 @@ body {
 #main-content section {
   color: #000000;
 }
-#firstElement {
-  border-top: 2px solid black;
+
+#nav-list {
+  background-color: #ABEBC6;
+} 
+#nav-list a {
+  color:  white;
+}
+
+#nav-list li {
+  border-bottom: 1px solid white;
+}
+
+#nav-list li:nth-child(3) {
+  border: none;
 }
 /********** Large devices only **********/
 @media (min-width: 1200px) {
