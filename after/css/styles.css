@@ -9,7 +9,7 @@ body {
 #header-nav {
   background-color: #FFE4C4;
   border-radius: 0;
-  border: 0;
+  border: 3px solid black;
 }
 
 
